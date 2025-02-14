@@ -76,4 +76,39 @@ Para testar as rotas da API, você pode usar ferramentas como [Postman](https://
 | GET    | /guest/{id}                     | Retorna detalhes de um hóspede        |
 
 
+## Imagens
+
+### Imagem 1
+![Imagem 1](./public/images/1.png)
+
+### Imagem 2
+![Imagem 2](./public/images/2.png)
+
+### Imagem 3
+![Imagem 3](./public/images/3.png)
+
+### Imagem 4
+![Imagem 4](./public/images/4.png)
+
+### Imagem 5
+![Imagem 5](./public/images/5.png)
+
+### Imagem 6
+![Imagem 6](./public/images/6.png)
+
+### Imagem 7
+![Imagem 7](./public/images/7.png)
+
+### Imagem 8
+![Imagem 8](./public/images/8.png)
+
+### Imagem 9
+![Imagem 9](./public/images/9.png)
+
+### Imagem 10
+![Imagem 10](./public/images/10.png)
+
+### Imagem 11
+![Imagem 11](./public/images/11.png)
+
 
