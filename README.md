@@ -78,7 +78,7 @@ Para testar as rotas da API, você pode usar ferramentas como [Postman](https://
 
 ## Imagens
 
-### Imagem 1
+### Criar Quarto
 ![Imagem 1](./public/images/1.png)
 
 ### Imagem 2
@@ -105,10 +105,10 @@ Para testar as rotas da API, você pode usar ferramentas como [Postman](https://
 ### Imagem 9
 ![Imagem 9](./public/images/9.png)
 
-### Imagem 10
+### Retornar hóspede
 ![Imagem 10](./public/images/10.png)
 
-### Imagem 11
+### Retornar todos os quartos
 ![Imagem 11](./public/images/11.png)
 
 
