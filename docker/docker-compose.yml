@@ -1,0 +1,12 @@
+
+services:
+    postgres:
+      image: postgres
+      ports:
+        - 5432:5432
+      volumes:
+        - /apps/postgres:/var/lib/postgresql/data
+      environment:
+        - POSTGRES_PASSWORD=areYouTalkingToMe?
+        - POSTGRES_USER=taxiDriver
+        - POSTGRES_DB=guesthouse_db
