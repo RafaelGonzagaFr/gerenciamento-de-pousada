@@ -15,7 +15,7 @@ Para rodar o projeto localmente, siga os seguintes passos:
 
 1. Clone o repositório na sua máquina:
     ```bash
-    git clone <URL do repositório>
+    git clone https://github.com/RafaelGonzagaFr/gerenciamento-de-pousada
     ```
 
 2. Abra o projeto em sua IDE de preferência (por exemplo, IntelliJ IDEA ou Eclipse).
