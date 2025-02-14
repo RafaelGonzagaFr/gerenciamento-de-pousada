@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -20,6 +21,11 @@ public class GuestController {
 
     public GuestController(GuestService guestService) {
         this.guestService = guestService;
+    }
+
+    @GetMapping
+    public ResponseEntity<List<GuestModel>> getGuest(){
+        return ResponseEntity.status(HttpStatus.FOUND).body(guestService.getGuests());
     }
 
     @GetMapping("/{id}")

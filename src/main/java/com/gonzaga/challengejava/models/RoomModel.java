@@ -12,7 +12,7 @@ public class RoomModel {
     private UUID id;
 
     @Column(unique = true)
-    private Number roomNumber;
+    private Long roomNumber;
 
     private boolean occupied;
 
@@ -33,7 +33,7 @@ public class RoomModel {
         return roomNumber;
     }
 
-    public void setRoomNumber(Number roomNumber) {
+    public void setRoomNumber(Long roomNumber) {
         this.roomNumber = roomNumber;
     }
 

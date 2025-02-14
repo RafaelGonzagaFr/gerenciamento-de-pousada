@@ -1,4 +1,4 @@
 package com.gonzaga.challengejava.dtos;
 
-public record RoomDTO(Number roomNumber) {
+public record RoomDTO(Long roomNumber) {
 }

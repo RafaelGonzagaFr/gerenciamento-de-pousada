@@ -8,6 +8,7 @@ import com.gonzaga.challengejava.models.RoomModel;
 import com.gonzaga.challengejava.repositories.GuestRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -18,6 +19,10 @@ public class GuestService {
 
     public GuestService(GuestRepository guestRepository) {
         this.guestRepository = guestRepository;
+    }
+
+    public List<GuestModel> getGuests(){
+        return guestRepository.findAll();
     }
 
     public GuestModel getGuest(UUID id){
