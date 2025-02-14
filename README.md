@@ -24,9 +24,9 @@ Para rodar o projeto localmente, siga os seguintes passos:
 3. Suba os container com o Docker Compose
    
 Certifique-se de que o Docker e o Docker Compose estão instalados na sua máquina. No diretório raiz do projeto, onde o arquivo docker-compose.yml está localizado, execute o seguinte comando para iniciar o serviço PostgreSQL:
-	```bash
+```bash
 	docker-compose up -d
-	```
+```
 
 5. No arquivo `application.properties`, as credenciais já estão configuradas para se conectar ao postgres rodando no docker, porém caso mude algo na configuração do docker compose, o arquivo deverá ser modificado conforme o que for alterado:
 
@@ -52,7 +52,7 @@ Certifique-se de que o Docker e o Docker Compose estão instalados na sua máqui
 7. Parando o Docker Compose:
 Quando você terminar de testar a aplicação, o serviço PostgreSQL pode ser parado executando:
 	```bash
-		docker-compose down
+	docker-compose down
 	```
 
 
